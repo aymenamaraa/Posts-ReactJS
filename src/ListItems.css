@@ -1,0 +1,45 @@
+.post {
+  color: #fff;
+  width: 300px;
+  margin: 20px auto;
+  height: 50px;
+  background-color: #2a53f5;
+  border-radius: 5px;
+}
+.post p {
+  padding: 10px;
+  position: relative;
+  transition: ease-in-out;
+}
+.post p input {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+}
+.post p input:focus {
+  outline: none;
+}
+.post p span {
+  position: absolute;
+  right: 10px;
+}
+.faicons {
+  margin: 0 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.itemsAnim-enter {
+  opacity: 0.01;
+}
+.itemsAnim-enter .itemsAnim-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+.itemsAnim-leave {
+  opacity: 1;
+}
+.itemsAnim-leave .itemsAnim-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
